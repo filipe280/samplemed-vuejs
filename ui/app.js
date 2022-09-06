@@ -1,15 +1,15 @@
 //root component to list the routing parts
 const routes=[
-    {path:'/home',component:home},
-    {path:'/employee',component:employee},
-    {path:'/department',component:department}
+  {path:'/home',component:home},
+  {path:'/employee',component:employee},
+  {path:'/department',component:department}
 ]
 
 const router = VueRouter.createRouter({
-    // 4. Provide the history implementation to use. We are using the hash history for simplicity here.
-    history: VueRouter.createWebHashHistory(),
-    routes, // short for `routes: routes`
-  })
+  // 4. Provide the history implementation to use. We are using the hash history for simplicity here.
+  history: VueRouter.createWebHashHistory(),
+  routes, // short for `routes: routes`
+})
 
 // const app = new Vue({
 //     router
